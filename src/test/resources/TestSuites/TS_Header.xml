@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteMicrosoft">
+    <test name="DesktopTests">
+        <parameter name="platform" value="desktop">
+            <classes>
+                <class name="qaminds.curso.header.DesktopHeaderTest"></class>
+            </classes>
+        </parameter>
+    </test>
+    <test name="MobileTests">
+        <parameter name="platform" value="mobile">
+            <classes>
+                <class name="qaminds.curso.header.MobileHeaderTest"></class>
+            </classes>
+        </parameter>
+    </test>
+</suite>
